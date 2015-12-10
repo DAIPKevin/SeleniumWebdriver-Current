@@ -34,12 +34,12 @@ public class ApplyOnline {
 				"//*[@id=\"pageContent\"]/form/table[2]/tbody/tr[5]/td/input",
 				"Captcha Input Field"};
 		String[] buttonReset = {
-				"xpath",
-				"//*[@id=\"pageContent\"]/form/table[2]/tbody/tr[6]/td/div[2]/button",
+				"id",
+				"btnReset",
 				"Reset Button"};
 		String[] buttonSubmit = {
-				"xpath",
-				"//*[@id=\"pageContent\"]/form/table[2]/tbody/tr[6]/td/div[1]/button",
+				"id",
+				"btnSubmit",
 				"Submit Button"};
 				
 		String[][] myArray = {

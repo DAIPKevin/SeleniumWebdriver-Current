@@ -19,7 +19,7 @@ public class Header  {
 		 */
 		String[] home = {
 				"xpath",
-				"//*[@id=\"nav\"]/ul/li[1]",
+				"//*[@id=\"nav\"]/ul/li[1]/a",
 				"Home"};
 		String[][] myHomeArray = {home};
 		String[] getAssistance = {
@@ -63,7 +63,7 @@ public class Header  {
 				getAssistance1, getAssistance2, getAssistance3, getAssistance4, 
 				getAssistance5, getAssistance6, getAssistance7, getAssistance8};
 		//System.out.println("---Running test for the Header(Home and Get Assistance)");
-//		RunTest.runTest(myHomeArray, driver, page, "Header");
+		RunTest.runTest(myHomeArray, driver, page, "Header");
 		runHeaderTest(myArray, driver, page);
 		
 	}

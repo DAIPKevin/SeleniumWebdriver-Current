@@ -29,13 +29,13 @@ public class seleniumTest {
 		System.setOut(out);
 		
 		// Chrome set up 
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\572190\\Downloads\\chromedriver_win32\\chromedriver.exe");
-//		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\572190\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		
 		//Firefox
-		WebDriver driver = new FirefoxDriver();
-		Dimension d = new Dimension(1200,900);
-		driver.manage().window().setSize(d);
+//		WebDriver driver = new FirefoxDriver();
+//		Dimension d = new Dimension(1200,900);
+		driver.manage().window().maximize();
 		
 //		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
@@ -48,7 +48,7 @@ public class seleniumTest {
 		GenerateHTML.beginning();
 		
 		//----------HOMEPAGE--------------
-		Homepage.Run(driver);
+//		Homepage.Run(driver);
 		
 		//--------LANDING PAGES-----------
 //		GetAssistanceLanding.run(driver);
@@ -61,7 +61,7 @@ public class seleniumTest {
 //		ApplyOnline.run(driver);
 //		CheckStatus.run(driver);
 //		CategoryAssistance.run(driver);
-//		FederalAgencyAssistance.run(driver);
+		FederalAgencyAssistance.run(driver);
 //		ApplicationChecklist.run(driver);
 //		Forms.run(driver);
 		
