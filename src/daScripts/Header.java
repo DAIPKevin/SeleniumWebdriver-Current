@@ -59,7 +59,7 @@ public class Header  {
 				"//*[@id=\"nav\"]/ul/li[2]/ul/li[8]",
 				"Get assistance -> Forms"};		
 		//removed landing page
-		String[][] myArray = {
+		String[][] myArray = {getAssistance,
 				getAssistance1, getAssistance2, getAssistance3, getAssistance4, 
 				getAssistance5, getAssistance6, getAssistance7, getAssistance8};
 		//System.out.println("---Running test for the Header(Home and Get Assistance)");
@@ -118,7 +118,7 @@ public class Header  {
 				"//*[@id=\"nav\"]/ul/li[3]/ul/li[10]",
 				"Information -> Fact Sheets"};		
 		//removed landing page
-		String[][] myArray = {
+		String[][] myArray = {information,
 				 information1, information2, information3, information4, information5, information6,
 				information7, information8, information9,information10};
 		//System.out.println("---Running test for the Header(information)");
@@ -165,7 +165,7 @@ public class Header  {
 				"Help -> Download Plug-Ins"};
 	
 		//removed about us landing pages (2)
-		String[][] myArray = {
+		String[][] myArray = {AboutUs, help,
 				 AboutUs1, AboutUs2,help1, help2, help3, help4, help5};
 		//System.out.println("---Running test for the Header(About Us and Help)");
 		runHeaderTest(myArray, driver, page);

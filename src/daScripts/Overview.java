@@ -30,15 +30,15 @@ public class Overview {
 		String section = "Overview";
 		String[] missionContent = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block\"]/div/div/div/ul/li[1]/div/div[2]/div/div/p",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[1]/div/div",
 				"Mission"};
 		String[] backgroundContent = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block\"]/div/div/div/ul/li[2]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[2]/div/div",
 				"Background"};
 		String[] eGovernmentContent = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block\"]/div/div/div/ul/li[4]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[4]/div/div",
 				"E-Government"};
 		
 		String[][] myArray = {

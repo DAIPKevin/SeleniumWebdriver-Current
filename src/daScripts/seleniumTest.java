@@ -51,41 +51,41 @@ public class seleniumTest {
 //		Homepage.Run(driver);
 		
 		//--------LANDING PAGES-----------
-//		GetAssistanceLanding.run(driver);
-//		InformationLanding.run(driver);
-//		AboutUsLanding.run(driver);
-//		HelpLanding.run(driver);
-		
+		GetAssistanceLanding.run(driver);
+		InformationLanding.run(driver);
+		AboutUsLanding.run(driver);
+		HelpLanding.run(driver);
+//		
 		//--------GET ASSISTANCE----------
-//		AddressLookUp.run(driver);
-//		ApplyOnline.run(driver);
-//		CheckStatus.run(driver);
-//		CategoryAssistance.run(driver);
+		AddressLookUp.run(driver);
+		ApplyOnline.run(driver);
+		CheckStatus.run(driver);
+		CategoryAssistance.run(driver);
 		FederalAgencyAssistance.run(driver);
-//		ApplicationChecklist.run(driver);
-//		Forms.run(driver);
+		ApplicationChecklist.run(driver);
+		Forms.run(driver);
 		
 		//---------INFORMATION------------
-//		NewsFeeds.run(driver);
-//		ImmediateNeeds.run(driver);
-//		MovingForward.run(driver);
-//		CommunityResources.run(driver);
-//		OlderAmericans.run(driver);
-//		ChildrenFamilies.run(driver);
-//		DisasterTypes.run(driver);
-//		ForeignDisasters.run(driver);
-//		FactSheets.run(driver);
+		NewsFeeds.run(driver);
+		ImmediateNeeds.run(driver);
+		MovingForward.run(driver);
+		CommunityResources.run(driver);
+		OlderAmericans.run(driver);
+		ChildrenFamilies.run(driver);
+		DisasterTypes.run(driver);
+		ForeignDisasters.run(driver);
+		FactSheets.run(driver);
 //		
 //		//----------ABOUT US--------------
-//		Overview.run(driver);
-//		Partners.run(driver);
+		Overview.run(driver);
+		Partners.run(driver);
 //			
 //		//----------CONTACT US------------
-//		FAQ.run(driver);
-//		ContactUs.run(driver);
-//		PrivacyPolicy.run(driver);
-//		Accessibility.run(driver);
-//		DLPlugins.run(driver);
+		FAQ.run(driver);
+		ContactUs.run(driver);
+		PrivacyPolicy.run(driver);
+		Accessibility.run(driver);
+		DLPlugins.run(driver);
 		
 //		RunTest.emailTest();
 		

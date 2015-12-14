@@ -34,43 +34,43 @@ public class PrivacyPolicy {
 		String section = "Body";
 		String[] policyHeader = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[1]/div/div[1]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[1]/div/div",
 				"Privacy Policy Header"};
 		String[] personalII = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[1]/div/div[3]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[1]/div/div",
 				"Personally Identifiable Information"};
 		String[] childrensPrivacy = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[2]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[2]/div/div",
 				"Children's Privacy"};
 		String[] paperworkReduction = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[3]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[3]/div/div",
 				"Paperwork Reduction Act Notice"};
 		String[] useCookies = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[4]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[4]/div/div",
 				"How We Use Cookies"};
 		String[] googleAnalytics = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[5]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[5]/div/div",
 				"Google Analytics"};
 		String[] addThis = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[6]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[6]/div/div",
 				"AddThis"};
 		String[] surveyMonkey = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[7]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[7]/div/div",
 				"SurveyMonkey"};
 		String[] siteMetrics = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[8]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[8]/div/div",
 				"Site Metrics"};
 		String[] linkedWebsites = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-5\"]/div/div/div/ul/li[9]/div/div[2]/div/div",
+				"//*[@id=\"content-container\"]/article/div/div/div/div[9]/div/div",
 				"Visiting Linked Websites"};
 		String[] backgroundImage = {
 				"id",

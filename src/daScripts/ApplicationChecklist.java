@@ -33,40 +33,36 @@ public class ApplicationChecklist {
 				"xpath",
 				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[1]/div",
 				"Apply Online for Assistance"};
-		String[] applyByPhoneInstructions = {
-				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[2]/div",
-				"Apply by Phone for Assistance"};
 		String[] informationChecklistContainer = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[3]/div",
+				"//*[@id=\"field-name-field-red-title\"]",
 				"Information Checklist"};
 		String[] socialSecurityNum = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[3]/div/div[3]/div/div[1]",
+				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[2]/div/div[3]/div/div[1]",
 				"Social Security Number"};
 		String[] insuranceInfo = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[3]/div/div[3]/div/div[2]",
+				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[2]/div/div[3]/div/div[2]",
 				"Insurance Information"};
 		String[] damageInfo = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[3]/div/div[3]/div/div[3]",
+				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[2]/div/div[3]/div/div[3]",
 				"Damage Information"};
 		String[] financialInfo = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[3]/div/div[3]/div/div[4]",
+				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[2]/div/div[3]/div/div[4]",
 				"Financial Information"};
 		String[] contactInfo = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[3]/div/div[3]/div/div[5]",
+				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[2]/div/div[3]/div/div[5]",
 				"Contact Information"};
 		String[] directDepositInfo = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[3]/div/div[3]/div/div[6]",
+				"//*[@id=\"block-views-static-view-pages-block-2\"]/div/div/div/ul/li[2]/div/div[3]/div/div[6]",
 				"Direct Deposit Information"};
 		String[][] myArray = {
-				applyOnlineInstructions,applyByPhoneInstructions,informationChecklistContainer,
+				applyOnlineInstructions,informationChecklistContainer,
 				socialSecurityNum,insuranceInfo,damageInfo,financialInfo,contactInfo,directDepositInfo};
 		RunTest.runTest(myArray,driver,section,page);
 	}

@@ -34,72 +34,19 @@ public class DLPlugins {
 		String section = "Body";
 		String[] plugInsHeader = {
 				"xpath",
-				"//*[@id=\"block-views-static-view-pages-block-3\"]/div/div/div/ul/li[1]/div/div[1]/div/div/p",
+				"//*[@id=\"page-title\"]",
 				"Download Plug-ins Header"};
-		String[] xlsHeader = {
+		String[] content = {
 				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/h2[1]",
-				"Excel"};
-		String[] xlsInfo = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/p[3]",
-				"Excel Information"};
-		String[] swfHeader = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/h2[2]",
-				"Flash Player"};
-		String[] swfInfo = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/p[4]",
-				"Flash Player Information"};
-		String[] pdfHeader = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/h2[3]",
-				"Portable Document Format"};
-		String[] pdfInfo = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/p[5]",
-				"Portable Document Format Information"};
-		String[] pptHeader = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/h2[4]",
-				"PowerPoint"};
-		String[] pptInfo = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/p[6]",
-				"PowerPoint Information"};
-		String[] wmvasxHeader = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/h2[5]",
-				"Windows Media Player"};
-		String[] wmvasxInfo = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/p[7]",
-				"Windows Media Player Information"};
-		String[] zipHeader = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/h2[6]",
-				"WinZip"};
-		String[] zipInfo = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/p[8]",
-				"WinZip Information"};
-		String[] docHeader = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/h2[7]",
-				"Word"};
-		String[] docInfo = {
-				"xpath",
-				"//*[@id=\"content-container\"]/article/div[2]/div/div/p[9]",
-				"Word Information"};
+				"//*[@id=\"content-container\"]/article",
+				"Download Plug-ins content"};
 		String[] backgroundImage = {
 				"id",
 				"background-image-container",
 				"Background Image"};
 		
 		String[][] myArray = {
-				plugInsHeader,xlsHeader,xlsInfo,swfHeader,swfInfo,pdfHeader,pdfInfo,pptHeader,pptInfo,
-				wmvasxHeader,wmvasxInfo,zipHeader,zipInfo,docHeader,docInfo,backgroundImage};
+				plugInsHeader,content, backgroundImage};
 		RunTest.runTest(myArray,driver,page,section);
 	}
 }
