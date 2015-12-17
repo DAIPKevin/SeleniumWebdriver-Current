@@ -2,7 +2,7 @@ package daScripts;
 
 import java.io.IOException;
 
-import javax.mail.MessagingException;
+
 
 import org.openqa.selenium.WebDriver;
 
@@ -12,7 +12,7 @@ public class HelpLanding {
 		
 	}
 	
-	public static void run(WebDriver driver) throws InterruptedException, MessagingException, IOException{
+	public static void run(WebDriver driver) throws InterruptedException,  IOException{
 		//System.out.println("Running test for the Help Landing Page");
 		driver.get("http://"+seleniumTest.domain+".disasterassistance.gov/help");
 		Header.run(driver,page);

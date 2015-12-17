@@ -2,8 +2,6 @@ package daScripts;
 
 import java.io.IOException;
 
-import javax.mail.MessagingException;
-
 import org.openqa.selenium.WebDriver;
 
 public class Accessibility {
@@ -11,7 +9,7 @@ public class Accessibility {
 	public Accessibility(){
 	}
 	
-	public static void run(WebDriver driver) throws InterruptedException, MessagingException, IOException{
+	public static void run(WebDriver driver) throws InterruptedException, IOException{
 		//System.out.println("Running test for Accessibility");
 		driver.get("http://www.disasterassistance.gov/help/accessibility");
 		Header.run(driver,page);

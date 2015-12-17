@@ -7,7 +7,6 @@ import java.io.PrintStream;
 import java.lang.reflect.Array;
 import java.util.concurrent.TimeUnit;
 
-import javax.mail.MessagingException;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.By;
@@ -23,21 +22,20 @@ import org.openqa.selenium.interactions.Actions;
 public class seleniumTest {
 	public static String domain = "www";
 	public static String homeURL = "https://" + domain + ".disasterassistance.gov/";
-	public static void main(String[] args) throws InterruptedException, MessagingException, IOException {
+	public static void main(String[] args) throws InterruptedException,  IOException {
 		
 		PrintStream out = new PrintStream(new FileOutputStream("output.html"));
 		System.setOut(out);
 		
 		// Chrome set up 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\572190\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\572190\\Downloads\\chromedriver_win32\\chromedriver.exe");
+//		WebDriver driver = new ChromeDriver();
 		
 		//Firefox
-//		WebDriver driver = new FirefoxDriver();
-//		Dimension d = new Dimension(1200,900);
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		
-//		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
 		if(domain.equals("staging")){
 			driver.get("http://" + seleniumTest.domain +".disasterassistance.gov/?mobile=unL9HuS");
@@ -48,7 +46,7 @@ public class seleniumTest {
 		GenerateHTML.beginning();
 		
 		//----------HOMEPAGE--------------
-//		Homepage.Run(driver);
+		Homepage.Run(driver);
 		
 		//--------LANDING PAGES-----------
 		GetAssistanceLanding.run(driver);

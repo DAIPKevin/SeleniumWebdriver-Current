@@ -2,8 +2,6 @@ package daScripts;
 
 import java.io.IOException;
 
-import javax.mail.MessagingException;
-
 import org.openqa.selenium.WebDriver;
 
 public class ContactUs {
@@ -11,7 +9,7 @@ public class ContactUs {
 	public ContactUs(){
 	}
 	
-	public static void run(WebDriver driver) throws InterruptedException, MessagingException, IOException{
+	public static void run(WebDriver driver) throws InterruptedException, IOException{
 		//System.out.println("Running test for Contact Us");
 		driver.get("http://www.disasterassistance.gov/help/contact-us");
 		Header.run(driver,page);

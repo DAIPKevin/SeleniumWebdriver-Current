@@ -2,7 +2,6 @@ package daScripts;
 
 import java.io.IOException;
 
-import javax.mail.MessagingException;
 
 import org.openqa.selenium.WebDriver;
 
@@ -11,7 +10,7 @@ public class ChildrenFamilies {
 	public ChildrenFamilies(){
 	}
 	
-	public static void run(WebDriver driver) throws InterruptedException, MessagingException, IOException{
+	public static void run(WebDriver driver) throws InterruptedException, IOException{
 		//System.out.println("Running test for Children and Families");
 		driver.get("http://" + seleniumTest.domain +".disasterassistance.gov/information/children-and-families");
 		Header.run(driver, page);

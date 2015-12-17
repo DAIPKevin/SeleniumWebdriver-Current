@@ -54,6 +54,5 @@
 	<classpathentry kind="lib" path="C:/Users/572190/Downloads/selenium-java-2.48.2/selenium-2.48.2/libs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/572190/Downloads/selenium-java-2.48.2/selenium-2.48.2/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/572190/Downloads/selenium-java-2.48.2/selenium-2.48.2/libs/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="C:/Users/572190/Downloads/javamail1_4_7/javamail-1.4.7/mail.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
