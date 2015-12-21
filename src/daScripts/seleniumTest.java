@@ -20,6 +20,7 @@ import org.openqa.selenium.interactions.Actions;
 @SuppressWarnings("unused")
 
 public class seleniumTest {
+	//www= production, staging = staging
 	public static String domain = "www";
 	public static String homeURL = "https://" + domain + ".disasterassistance.gov/";
 	public static void main(String[] args) throws InterruptedException,  IOException {
@@ -28,11 +29,13 @@ public class seleniumTest {
 		System.setOut(out);
 		
 		// Chrome set up 
-//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\572190\\Downloads\\chromedriver_win32\\chromedriver.exe");
-//		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\572190\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
 		
 		//Firefox
-		WebDriver driver = new FirefoxDriver();
+//		WebDriver driver = new FirefoxDriver();
+		
+		
 		driver.manage().window().maximize();
 		
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
@@ -46,44 +49,44 @@ public class seleniumTest {
 		GenerateHTML.beginning();
 		
 		//----------HOMEPAGE--------------
-		Homepage.Run(driver);
+//		Homepage.Run(driver);
 		
 		//--------LANDING PAGES-----------
-		GetAssistanceLanding.run(driver);
-		InformationLanding.run(driver);
-		AboutUsLanding.run(driver);
-		HelpLanding.run(driver);
+//		GetAssistanceLanding.run(driver);
+//		InformationLanding.run(driver);
+//		AboutUsLanding.run(driver);
+//		HelpLanding.run(driver);
 //		
 		//--------GET ASSISTANCE----------
-		AddressLookUp.run(driver);
-		ApplyOnline.run(driver);
-		CheckStatus.run(driver);
-		CategoryAssistance.run(driver);
-		FederalAgencyAssistance.run(driver);
-		ApplicationChecklist.run(driver);
-		Forms.run(driver);
+//		AddressLookUp.run(driver);
+//		ApplyOnline.run(driver);
+//		CheckStatus.run(driver);
+//		CategoryAssistance.run(driver);
+//		FederalAgencyAssistance.run(driver);
+//		ApplicationChecklist.run(driver);
+//		Forms.run(driver);
 		
 		//---------INFORMATION------------
-		NewsFeeds.run(driver);
-		ImmediateNeeds.run(driver);
-		MovingForward.run(driver);
-		CommunityResources.run(driver);
-		OlderAmericans.run(driver);
-		ChildrenFamilies.run(driver);
-		DisasterTypes.run(driver);
-		ForeignDisasters.run(driver);
-		FactSheets.run(driver);
+//		NewsFeeds.run(driver);
+//		ImmediateNeeds.run(driver);
+//		MovingForward.run(driver);
+//		CommunityResources.run(driver);
+//		OlderAmericans.run(driver);
+//		ChildrenFamilies.run(driver);
+//		DisasterTypes.run(driver);
+//		ForeignDisasters.run(driver);
+//		FactSheets.run(driver);
 //		
 //		//----------ABOUT US--------------
-		Overview.run(driver);
-		Partners.run(driver);
+//		Overview.run(driver);
+//		Partners.run(driver);
 //			
 //		//----------CONTACT US------------
-		FAQ.run(driver);
-		ContactUs.run(driver);
-		PrivacyPolicy.run(driver);
-		Accessibility.run(driver);
-		DLPlugins.run(driver);
+//		FAQ.run(driver);
+//		ContactUs.run(driver);
+//		PrivacyPolicy.run(driver);
+//		Accessibility.run(driver);
+//		DLPlugins.run(driver);
 		
 //		RunTest.emailTest();
 		
