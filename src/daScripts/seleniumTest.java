@@ -29,7 +29,7 @@ public class seleniumTest {
 		System.setOut(out);
 		
 		// Chrome set up 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\572190\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\578453\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//Firefox
@@ -49,13 +49,13 @@ public class seleniumTest {
 		GenerateHTML.beginning();
 		
 		//----------HOMEPAGE--------------
-//		Homepage.Run(driver);
+		Homepage.Run(driver);
 		
 		//--------LANDING PAGES-----------
-//		GetAssistanceLanding.run(driver);
-//		InformationLanding.run(driver);
-//		AboutUsLanding.run(driver);
-//		HelpLanding.run(driver);
+		GetAssistanceLanding.run(driver);
+		InformationLanding.run(driver);
+		AboutUsLanding.run(driver);
+		HelpLanding.run(driver);
 //		
 		//--------GET ASSISTANCE----------
 //		AddressLookUp.run(driver);
